@@ -1,0 +1,110 @@
+{
+    "fields": [
+      {
+        "name": "_id",
+        "path": "_id",
+        "count": 12,
+        "types": [
+          {
+            "name": "ObjectID",
+            "bsonType": "ObjectID",
+            "path": "_id",
+            "count": 12,
+            "values": [
+              "5babba21cc97d600dc0fdad0",
+              "5bc0aae99d438325dc7c2583",
+              "5bc0ab109d438325dc7c2584",
+              "5bc0ab359d438325dc7c2585",
+              "5bc0ab6c9d438325dc7c2586",
+              "5bc63794de6a881d807d8f74",
+              "5bc637c8de6a881d807d8f75",
+              "5bc637f9de6a881d807d8f76",
+              "5bc6381cde6a881d807d8f77",
+              "5bc639cdde6a881d807d8f78",
+              "5bc73dbabcbc6f0b80b39fc9",
+              "5bc73e2abcbc6f0b80b39fca"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 12,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 12,
+        "type": "ObjectID",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "name",
+        "path": "name",
+        "count": 12,
+        "types": [
+          {
+            "name": "String",
+            "bsonType": "String",
+            "path": "name",
+            "count": 12,
+            "values": [
+              "peach",
+              "book",
+              "laptop",
+              "pear",
+              "phone",
+              "car",
+              "ball",
+              "protein",
+              "bottle",
+              "lamp",
+              "banana",
+              "apple"
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 12,
+            "has_duplicates": false
+          }
+        ],
+        "total_count": 12,
+        "type": "String",
+        "has_duplicates": false,
+        "probability": 1
+      },
+      {
+        "name": "price",
+        "path": "price",
+        "count": 12,
+        "types": [
+          {
+            "name": "Int32",
+            "bsonType": "Int32",
+            "path": "price",
+            "count": 12,
+            "values": [
+              30,
+              100,
+              3400,
+              26,
+              350,
+              10000,
+              50,
+              100,
+              20,
+              78,
+              25,
+              20
+            ],
+            "total_count": 0,
+            "probability": 1,
+            "unique": 10,
+            "has_duplicates": true
+          }
+        ],
+        "total_count": 12,
+        "type": "Int32",
+        "has_duplicates": true,
+        "probability": 1
+      }
+    ],
+    "count": 12
+  }

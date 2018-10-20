@@ -1,0 +1,90 @@
+
+.header {
+    text-align: center;
+    padding: 2.2em;
+}
+
+.header-title {
+    color: #737373;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    width: 100%;
+    font-size: 3em;
+    padding-bottom: 0.7em;
+}
+
+.header-subtitle {
+    color: #737373;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    width: 100%;
+    font-size: 2em;
+    padding-bottom: 0.2em;
+}
+
+.header-subtitle i {
+    padding-top: 0.2em;
+    padding-bottom: 0.5em;
+}
+
+.header-description {
+    color: #737373;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    width: 100%;
+    font-size: 1em;
+    padding-bottom: 1em;
+}
+
+.header-column {
+    height: 100vh !important;
+    position: relative;
+}
+
+.header-column::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10%;
+    height: 80%;
+    width: 0.05em;
+    background-color: #737373;
+}
+
+.products-column {
+    max-height: 100vh;
+    overflow: scroll;
+}
+
+.add-form {
+    padding: 3em;
+}
+
+.add-title {
+    font-family: "Roboto";
+    font-size: 1.5em;
+    padding-bottom: 1em;
+}
+
+.add-options {
+    padding-top: 1em;
+}
+
+.not-found {
+    margin-top: 2em;
+    padding: 1em;
+    font-family: "Roboto";
+    font-size: 4em;
+    color: #737373;
+    border: 0.05em #737373;
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-left-style: solid;
+}
+
+.not-found-button {
+    margin-top: 3em;
+    padding: 1em;
+    font-family: "Lato", sans-serif;
+    color: #737373;
+}
