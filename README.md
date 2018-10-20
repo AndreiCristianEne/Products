@@ -17,6 +17,9 @@ I also exported the mongo database in a json format, and pasted it in the "expor
 To use the app, the dependencies need to be installed, the app needs to be build and the server needs to be ran.
 
 -- npm install (installs the depenndencies from package.json)
+
 -- npm run build (creates a build folder that will be served by the app)
+
 -- node / nodemon server.js (starts the server on ports 4000, now the app can be viewed on localhost:4000)
+
 -- npm run cypress:open (optional, runs the created test suite)
